@@ -1,3 +1,4 @@
+/*Primera forma*/
 function suma(num1, num2){
   return num1 + num2;
 }
@@ -8,6 +9,7 @@ function calc(num1, num2, callback){
 
 console.log(calc(6,2, suma));
 
+/*Segunda Forma*/
 function date(callback){
   console.log(new Date);
   setTimeout(function (){
